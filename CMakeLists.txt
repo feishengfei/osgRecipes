@@ -14,12 +14,12 @@ IF(BUILD_COOKBOOK)
 ENDIF(BUILD_COOKBOOK)
 
 # The integration examples
-OPTION(BUILD_INTEGRATIONS "Build integrations of OSG and other APIs" ON)
+OPTION(BUILD_INTEGRATIONS "Build integrations of OSG and other APIs" OFF)
 IF(BUILD_INTEGRATIONS)
     ADD_SUBDIRECTORY(integrations)
 ENDIF(BUILD_INTEGRATIONS)
 
-OPTION(BUILD_TESTS "Build experimental components" ON)
+OPTION(BUILD_TESTS "Build experimental components" OFF)
 IF(BUILD_TESTS)
     # The shader effect compositor in progress
     ADD_SUBDIRECTORY(effectcompositor)

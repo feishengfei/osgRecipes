@@ -14,9 +14,9 @@ SET(EXAMPLE_FILES ch08_03/share_objects.cpp)
 START_EXAMPLE()
 
 # Example 4: Configuring the database pager
-SET(EXAMPLE_NAME cookbook_08_04)
-SET(EXAMPLE_FILES ch08_04/config_pager.cpp)
-START_EXAMPLE()
+#SET(EXAMPLE_NAME cookbook_08_04)
+#SET(EXAMPLE_FILES ch08_04/config_pager.cpp)
+#START_EXAMPLE()
 
 # Example 5: Designing simple culling strategy
 SET(EXAMPLE_NAME cookbook_08_05)
@@ -43,6 +43,6 @@ SET(EXAMPLE_FILES ch08_08/render_points.cpp)
 START_EXAMPLE()
 
 # Example 9: Speeding up the scene intersections
-SET(EXAMPLE_NAME cookbook_08_09)
-SET(EXAMPLE_FILES ch08_09/intersection.cpp)
-START_EXAMPLE()
+#SET(EXAMPLE_NAME cookbook_08_09)
+#SET(EXAMPLE_FILES ch08_09/intersection.cpp)
+#START_EXAMPLE()

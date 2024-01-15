@@ -1,7 +1,7 @@
 # Example 1: Playing with the Delaunay triangulator
-SET(EXAMPLE_NAME cookbook_10_01)
-SET(EXAMPLE_FILES ch10_01/delaunay.cpp)
-START_EXAMPLE()
+#SET(EXAMPLE_NAME cookbook_10_01)
+#SET(EXAMPLE_FILES ch10_01/delaunay.cpp)
+#START_EXAMPLE()
 
 # Example 2: Understanding and using the pseudo-loaders
 SET(EXAMPLE_NAME cookbook_10_02)
@@ -19,9 +19,9 @@ SET(EXAMPLE_FILES ch10_04/custom_serializer.cpp)
 START_EXAMPLE()
 
 # Example 5: Reflecting classes with serializers
-SET(EXAMPLE_NAME cookbook_10_05)
-SET(EXAMPLE_FILES ch10_05/class_reflection.cpp)
-START_EXAMPLE()
+#SET(EXAMPLE_NAME cookbook_10_05)
+#SET(EXAMPLE_FILES ch10_05/class_reflection.cpp)
+#START_EXAMPLE()
 
 # Example 6: Taking a photo of the scene
 SET(EXAMPLE_NAME cookbook_10_06)
